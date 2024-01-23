@@ -6,12 +6,14 @@ const friend1 : Friend= {
     name: "Paul Fleming",
     phone: "087-12345",
     age: 25,
+    dob: new Date("1998-11-20")
   };
   
   const friend2 : Friend= {
     name: "Jane Costello",
     phone: "086--12345",
     age: 31,
+    interests: ['Music', 'Sport']
   };
   
   export const friends : Friend[]= [friend1, friend2];
